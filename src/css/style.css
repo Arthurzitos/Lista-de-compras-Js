@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #abc4ff, #b6ccfe, #c1d3fe, #ccdbfd, #d7e3fc);
+    color: black;
+}
+
+.container {
+    max-width: 400px;
+	max-height: 600px;
+	margin: auto;
+	height: 450px;
+	padding: 2%;
+	background: #e2eafc;
+	border:1px solid;
+}
+
+.container h3 {
+    padding-top: 15px;
+
+    text-align: center;
+    font-family: 'Grape Nuts', cursive;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Formatando Lista e Itens
+----------------------------*/
+ul{
+    list-style-type: none;
+    padding: 10px;
+    height: 250px;
+    background: #edf2fb;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+}
+
+li{
+    height: 40px;
+    margin: 15px 0 15px 0;
+    border-bottom: 1px solid;
+    font-family: 'Grape Nuts', cursive;
+}
+
+h4{
+    display: inline;
+    margin-left: 15px;
+}
+
+.number {
+    width: 50px;
+    border: none;
+}
+    
+
+
